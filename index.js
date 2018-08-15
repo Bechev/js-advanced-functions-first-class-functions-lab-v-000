@@ -10,3 +10,9 @@ const returnLastTwoDrivers = function(list){
 
 
 const selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers]
+
+function createFareMultiplier(multiplier){
+  return function(toll){
+    return toll * 4
+  }
+}
