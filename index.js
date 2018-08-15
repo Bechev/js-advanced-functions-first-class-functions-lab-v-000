@@ -7,3 +7,6 @@ const returnFirstTwoDrivers = function (list){
 const returnLastTwoDrivers = function(list){
   return list.slice(list.length-2);
 };
+
+
+const selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers]
