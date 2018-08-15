@@ -5,6 +5,5 @@ const returnFirstTwoDrivers = function (list){
 
 
 const returnLastTwoDrivers = function(list){
-  return list.slice(-2);
+  return list.slice(list.length-2);
 };
-
