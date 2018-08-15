@@ -16,3 +16,7 @@ function createFareMultiplier(multiplier){
     return toll * multiplier
   }
 }
+
+const fareDoubler = function(){
+  
+}
