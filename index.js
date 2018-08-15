@@ -13,6 +13,6 @@ const selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers]
 
 function createFareMultiplier(multiplier){
   return function(toll){
-    return toll * 4
+    return toll * multiplier
   }
 }
